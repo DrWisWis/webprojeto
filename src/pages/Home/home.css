@@ -1,0 +1,132 @@
+.slogan h1 {
+    color: white;
+    font-size: 60pt;
+    line-height: 100px;
+    max-width: 600px;
+    padding-left: 100px;
+}
+
+.slogan-description p {
+    color: white;
+    font-size: 20pt;
+    padding-left: 100px;
+
+}
+.cellphone-app {
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+
+.cellphone-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cellphone-content-left img {
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+}
+
+.cellphone-content-right {
+    margin-right: 100px;
+}
+
+.cellphone-content-right img {
+    width: 200px;
+    height: 60px;
+
+}   
+
+#footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 3rem 3rem;
+}
+
+#f-logo {
+    height: 100px;
+    width: 100px;
+
+}
+
+#footer i {
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+#footer a {
+    color: rgb(255, 255, 255);
+}
+
+.contact-info,
+.links-container {
+    width: 20%;
+}
+
+.footer-brand {
+    margin-bottom: 2rem;
+}
+
+.footer-brand h2 {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+}
+
+.contact-info p i {
+    background-color: transparent;
+    padding: 0;
+}
+
+.social-networks p {
+    margin-top: 40px;
+    margin-bottom: 1rem;
+}
+
+.networks {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+#footer .networks i {
+    padding: 1rem;
+}
+
+.links-container h4 {
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.links-container nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-container nav a {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.phone-number {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.phone-info {
+    margin-top: 0px;
+    color: white;
+}
