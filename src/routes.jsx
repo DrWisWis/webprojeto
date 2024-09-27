@@ -10,6 +10,7 @@ import CadFuncionario from './pages/CadFuncionario'
 import Funcionario from './pages/Funcionario'
 
 
+
 function RoutesApp(){
  return(
     <BrowserRouter>

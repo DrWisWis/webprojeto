@@ -32,7 +32,7 @@ const DataList = () => {
   <ul>
      {data.map(item =>(
       <li key={item.id}>
-         <li> ID{item.id} - {item.nome} {item.sobrenome} </li> {item.email} | {item.senha} | {item.dataNascimento}
+         <li> ID{item.id} - {item.nome} </li> {item.email} | {item.senha} | {item.dataNascimento}
         <button onClick={''}>Atualizar</button>
       </li>
     ))}

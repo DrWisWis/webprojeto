@@ -1,16 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Cliente(){
+import PrivateRoute from '../../components/PrivateRoute';
+import AgendamentoForm from '../../components/AgendamentoForm'; // Formulário de agendamento
 
-    return(
-           
-        <div>
-            <center><h1>Fazer agendamento</h1></center>
-        </div>
-
-    )
-
-}
+function Cliente() {
+  return (
+    <PrivateRoute>
+      <div>
+        <h1>Página do Cliente</h1>
+        <AgendamentoForm />
+      </div>
+    </PrivateRoute>
+  );
+};
 
 export default Cliente;

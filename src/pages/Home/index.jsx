@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
+import api from "../../services/api";
 
 function Home(){
 
